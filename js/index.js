@@ -17,5 +17,7 @@ function resetar() {
     document.getElementById("resultado").value = "";
     var ale1 = Math.floor(Math.random() * 10);
     var ale2 = Math.floor(Math.random() * 10);
-    document.getElementById("campo1").innerHTML = ale1; document.getElementById("campo2").innerHTML = ale2;
+    document.getElementById("campo1").innerHTML = ale1;
+	document.getElementById("campo2").innerHTML = ale2;
+    document.getElementById("resultado").focus();
 }
